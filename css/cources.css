@@ -1,0 +1,65 @@
+.faq {
+  text-align: center;
+}
+
+.faq__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #8b7197;
+}
+
+.faq__subtitle {
+  font-size: 20px;
+}
+
+.faq__question {
+  margin: 10px 10px 0px 10px;
+  background-color: #223141;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  padding: 15px;
+  width: 85%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 40px;
+  transition: all 0.2s ease;
+  color: white;
+}
+
+.faq__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.faq__panel {
+  display: none;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-left: 9.2rem;
+  max-width: 92%;
+  overflow: hidden;
+}
+
+.faq__panel_active {
+  display: block;
+}
+
+.btn-c{
+  text-decoration: none;
+}
+
+.courses_btn{
+  color: white;
+}
+
+
